@@ -1,0 +1,58 @@
+
+.main-color{
+    color: rgb(170, 19, 230);
+}
+
+/* Start nav bar */
+nav.navbar .navbar-brand{
+    color: rgb(170, 19, 230);
+    font-size: 22px;
+}
+nav.navbar .nav-item a:hover {
+    color: rgb(126, 47, 206)  !important
+}
+/* End nav bar */
+
+
+/* Start about */
+section.about .img{
+    background-image: url(../Images/work-1.jpg);
+    position: relative;
+    padding: 0;
+    background-size: cover; 
+    height: auto;
+}
+section.about .img p{
+    position: absolute;
+    bottom: 0;    
+    background: rgba(0,0,0,0.5);   
+    margin: 0;
+    padding: 20px;   
+}
+/* End about */
+
+
+/* Start service*/
+section.service{
+    height: 400px;
+    background-attachment: fixed;
+    background-image: url(../Images/intro.jpg);
+    background-size: cover;
+    padding-top: 170px;
+}
+section.service p{ 
+    margin: auto;   
+}
+/* End service*/
+
+/* Start product*/
+section.product{
+    padding: 10rem 0;
+}
+/* End product*/
+
+
+
+
+
+
